@@ -199,7 +199,7 @@ def money(value):
 
 def filter_sales(df, key_prefix):
     """Reusable date and country filters."""
-    filtered = df.copy()
+    filtered = df
 
     if filtered.empty:
         return filtered
