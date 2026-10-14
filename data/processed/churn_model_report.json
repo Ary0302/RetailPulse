@@ -1,0 +1,32 @@
+{
+    "best_model_by_roc_auc": "Logistic Regression",
+    "train_rows": 3450,
+    "test_rows": 863,
+    "features": [
+        "Recency",
+        "Frequency",
+        "Monetary",
+        "UniqueProducts",
+        "TotalQuantity",
+        "AvgOrderValue"
+    ],
+    "metrics": [
+        {
+            "Model": "Logistic Regression",
+            "Accuracy": 0.697566628041715,
+            "Precision": 0.668724279835391,
+            "Recall": 0.7647058823529411,
+            "F1": 0.7135016465422612,
+            "ROC_AUC": 0.7645715820574805
+        },
+        {
+            "Model": "Random Forest",
+            "Accuracy": 0.6651216685979142,
+            "Precision": 0.6471861471861472,
+            "Recall": 0.7035294117647058,
+            "F1": 0.6741826381059752,
+            "ROC_AUC": 0.7350416330915928
+        }
+    ],
+    "note": "Churn means no purchase in the defined 90-day future window. Metrics measure this historical inactivity label, not guaranteed future customer loss."
+}
