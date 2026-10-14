@@ -221,3 +221,4 @@ data/raw/*.xlsx
 # Generated processed datasets (keep locally, don't commit)
 data/processed/*.csv
 
+src/test_forecast.py
