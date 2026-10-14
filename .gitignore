@@ -222,3 +222,12 @@ data/raw/*.xlsx
 data/processed/*.csv
 
 src/test_forecast.py
+# Streamlit Cloud deployment: required dashboard data
+!data/processed/rfm_customers.csv
+!data/processed/customer_clusters.csv
+!data/processed/kmeans_cluster_profile.csv
+!data/processed/churn_model_metrics.csv
+!data/processed/churn_training_data.csv
+!data/processed/forecast_evaluation_predictions.csv
+!data/processed/forecast_metrics.csv
+!data/processed/retail_sales.csv.gz

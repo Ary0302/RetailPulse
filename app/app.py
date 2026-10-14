@@ -11,7 +11,7 @@ import streamlit as st
 
 ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = ROOT / "data" / "processed"
-SALES_FILE = DATA_DIR / "retail_sales.csv"
+SALES_FILE = DATA_DIR / "retail_sales.csv.gz"
 
 st.set_page_config(
     page_title="RetailPulse | Analytics",
