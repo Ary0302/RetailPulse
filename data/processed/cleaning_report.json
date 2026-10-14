@@ -1,0 +1,14 @@
+{
+    "initial_rows": 1067371,
+    "missing_customer_id": 243007,
+    "missing_description": 4382,
+    "invalid_invoice_date": 0,
+    "non_positive_quantity": 22950,
+    "non_positive_price": 6207,
+    "cancelled_invoice_rows": 19494,
+    "exact_duplicate_rows": 34335,
+    "rows_after_duplicate_removal": 1033036,
+    "valid_sales_rows": 1007913,
+    "rows_excluded_from_sales_dataset": 25123,
+    "sales_revenue_before_customer_filter": 20476260.45
+}

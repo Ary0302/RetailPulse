@@ -218,3 +218,6 @@ __marimo__/
 .streamlit/secrets.toml
 data/raw/*.xlsx
 
+# Generated processed datasets (keep locally, don't commit)
+data/processed/*.csv
+
